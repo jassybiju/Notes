@@ -18,6 +18,17 @@ It is the systematic process of evaluating and verifying a software application 
 - Unit Tests : Unit tests help catch bugs early in the development process.
 - Integration Tests : It helps catch bugs when different units work together
 - E2E Tests : It simulate use interactions with the entire system.
+- Smoke Test : Quick tests that verify basic functionality works
+- Regression Test : Ensure previously wokring features haven't broken.
+- Performance Test : Measure how fast your application responds under load.
+- Security Test : Check for vulnerabilites like SQL injection or XSS.
+- Accessiblility Test : Verify your application works for users with diablilites.
+
+## What to Test:
+- Happy Path : The main way users interact with your features.
+- Edge Cases : Empty inputs, max value, special characters.
+- Error Handling : Waht happens when things go wrong.
+- Business-critical Features : Features where bugs would be mostly cost.
 
 ## What type of test to wright
 - More Unit test than integration test.
@@ -46,3 +57,14 @@ Popular Frameworks : **Jest** (*Experimental* Support for ECMAScript Modules), *
 - Start by writing a failing test.
 - Write just enough code to make the test pass.
 - Refactor if necessary.
+
+
+## Test Doubles
+
+Test Double is a generic term for any case where you replace a production object for testing purpose.
+
+**DUMMY** : Its Objects that are passed around but never actually used. Usually they are just used to fill paramnter lists.
+**Fake** : Its objects actually having working implementations, but usually take some shortcut which makes them not suitable for productions ( eg InMemoryTestDatabse)
+**Stubs** : They provide canned answers to calls made during the test, Usually not responding at all to anything outside what's programmed in for the test.
+**Spies** : these are stubs that also some information based on how they were called. One form of this might be an email Service that records how many messages it was sent.
+**Mocks** : these are pre-programmed with expectation which form a specification of the calls they are expected to recieve. They can throw an exception if they recieve a call they don't expect and are checked during verification to ensure they got the calls they were expecting
