@@ -68,3 +68,23 @@ Moving changes from stage to Local Repo is called **Commit**. (We're confirming 
 `PUSH` : Moves the local changes to remote
 `FETCH` : Bringing the changes from remote to local, but not merging them yet
 `PULL` : Fetching + Merging. so your working directlory immediately reflect the remote changes
+
+`git restore --staged <path>` : Remove changes from staged area to previous commit keeps the working dir
+`git restore <path>` : Remove the chnges from both staged area and working_dir
+
+`git stash` : Temporarily set aside your unfinished work, switch to another branch to do something
+`git stash pop` : Restores the most recent stash and removes from the list
+`git stash apply` : Restores the most recent stash but won't remove form the list
+`git stash list` : List all the stash
+`git stash drop` : Removes the stash
+
+`git revert <commit>` : Used to undo the changes made in a previous commit, but instead of deleting that old commit, it creates a new one that reverses those changes
+OR
+Create a new commit that inverse that the <commit>
+
+### why dont use git reset instead of revert
+If others already used the reverting commit. It will cause issure. since they need to reset it and redo all the features they are already doing. so if reverted they only need have a merge conflict
+
+“Rebase takes my branch's commits that were based on an older commit and replays them on top of the latest commit of the base branch.”
+
+PULL REQUEST : 
