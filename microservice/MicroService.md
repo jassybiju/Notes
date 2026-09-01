@@ -47,3 +47,12 @@ Down
 - And Harder to understand
 
 
+### Common Questions around Async Communication
+
+![microservice common q & a](./Microservice_CommonQ&A.png)
+
+## Event Bus
+
+- Many different implementation, RabbitMQ, Kafka, NATS
+- Recieves events, publishes them to listeners
+- Many different subtle features that make async communication way easier or way harder
