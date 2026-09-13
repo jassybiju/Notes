@@ -56,3 +56,7 @@ Down
 - Many different implementation, RabbitMQ, Kafka, NATS
 - Recieves events, publishes them to listeners
 - Many different subtle features that make async communication way easier or way harder
+
+
+### How to define boundaries between microservice
+- Each Bounded context represents a specific domain or subdomain within the business that contains its own ubiquitous language, domain model and set of buisness rules.
