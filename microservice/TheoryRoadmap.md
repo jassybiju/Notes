@@ -1,7 +1,7 @@
 Tier 1 — absolutely master
-System design fundamentals
-Domain modeling
-Service decomposition
+- System design fundamentals
+- Domain modeling
+- Service decomposition
 Data ownership
 API design
 Sync vs async communication
