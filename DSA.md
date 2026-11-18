@@ -3,9 +3,7 @@
 ## 1. Array and String Patterns
 
 - [Two Pointers](#two-pointers)
-- [ ] Sliding Window
-- [ ] Fixed-Size Sliding Window
-- [ ] Variable-Size Sliding Window
+- [Sliding Window](#sliding-window)
 - [ ] Prefix Sum
 - [ ] Difference Array
 - [ ] Kadane's Algorithm
@@ -152,3 +150,14 @@ Follow this order instead of trying to learn every pattern at once.
 8. **Advanced Topics:** Greedy, Bit Manipulation, Trie, Segment Tree
 
 ## Two Pointers
+- Converging Pointers
+- Parallel Pointers
+- Trigger-Based Pointers
+  When To Use?
+  - Used for Linear Data Structure
+  - If input data follows a predicatable patterns.
+  - Or for a result that can be generated using 2 values.
+    
+## Sliding Window
+- Fixed Sliding Window 
+- Dynamic Sliding Window
