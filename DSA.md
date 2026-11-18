@@ -2,7 +2,7 @@
 
 ## 1. Array and String Patterns
 
-- [ ] Two Pointers
+- [Two Pointers](#two-pointers)
 - [ ] Sliding Window
 - [ ] Fixed-Size Sliding Window
 - [ ] Variable-Size Sliding Window
@@ -150,3 +150,5 @@ Follow this order instead of trying to learn every pattern at once.
 6. **Graphs:** BFS, DFS, DSU, Topological Sort, Shortest Paths
 7. **Dynamic Programming:** 1D, 2D, Knapsack, Subsequences, Advanced DP
 8. **Advanced Topics:** Greedy, Bit Manipulation, Trie, Segment Tree
+
+## Two Pointers
